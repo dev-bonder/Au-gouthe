@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'delegnate';
+    src: 
+        url(luxury-signature/LuxurySignature.otf);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 200vh;
+    overflow-x: hidden;
+}
+.br{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgba(14, 92, 79, 0); 
+    transition: 0.3s; 
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    z-index: 3;
+}
+
+.br:hover{
+    background-color: rgb(14, 92, 79)
+
+}
+
+.logo{
+    width: auto;
+    height: 12vh;
+    padding-top: 1.5vh;
+    padding-left: 2vw;
+
+}
+
+.Nt{
+    text-decoration: none;
+    color: rgb( 246, 174, 175);
+    background-color: rgb(14, 67, 92);
+    height: 5vh;
+    width: 9vw ;
+    min-width: 90px;
+    line-height: 5vh;
+    text-align: center;
+    margin-top: 4.5vh ;
+    margin-right: 2vw;
+    border-radius: 10vh;
+    font-size: 2vh;
+    transition: 0.3s;
+
+}
+
+.Nt:hover{
+    color:rgb(14, 67, 92);
+    background-color: rgb( 246, 174, 175);
+}
+
+.ps{
+    width: 100vw;
+    min-width: 1422px;
+    position: absolute;
+    z-index: 1;
+}
+
+.p1{
+    position: absolute;
+    z-index: 2;
+    top: 15vh;
+    left: 17vw;
+    font-size: 7vh;
+    color:rgb( 246, 174, 175);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 9vh;
+    width: 15vw;
+    line-height: 9vh;
+    text-align: center;
+    border-radius: 3vh 3vh 0 3vh;
+    font-family: 'delegnate';
+
+}
+
+
+.p2{
+    position: absolute;
+    z-index: 2;
+    top: 31vh;
+    left: 23vw;
+    font-size: 7vh;
+    color:rgb( 246, 174, 175);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 7vh;
+    width: 36vw;
+    line-height: 7vh;
+    margin: 0;
+    text-align: center;
+    border-radius: 0 3vh 3vh 3vh;
+    font-family: 'delegnate';
+}
