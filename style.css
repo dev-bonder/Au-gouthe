@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    height: 200vh;
+    height: 250vh;
     overflow-x: hidden;
     background-color: rgb(14, 67, 92);
 }
@@ -63,8 +63,10 @@ body {
 .ps{
     height: 100vh;
     min-width: 1422px;
+    min-height: 640px;
     position: absolute;
     z-index: 1;
+    margin-bottom: 2px;
 }
 
 .p1{
@@ -118,11 +120,24 @@ body {
     position: absolute;
     top: 117vh;   
     left: 1vw;
+    min-width: 1500px;
 }
 
 .imgv{
     height: 38vh;
     width: auto;
     margin: 1vw;
+}
 
+.nh{
+    position: absolute;
+    top: 170vh;
+    left: 30vw;
+    color: rgb( 246, 174, 175);
+    font-size: 4vh;
+}
+
+.tnh{
+    text-align: center;
+    font-size: 5vh;
 }
