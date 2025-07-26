@@ -59,6 +59,11 @@ body {
     background-color: rgb( 246, 174, 175);
 }
 
+.view{
+    background-color: rgb(14, 92, 79);
+}
+
+
 .ps{
     height: 100vh;
     min-width: 1422px;
@@ -87,6 +92,11 @@ body {
     color: rgba(0, 0, 0, 0);
     font-size: 4vh;
     line-height: 6vh;
+    transition: 0.2s;
+}
+
+.view2{
+    color: rgb( 246, 174, 175);
 }
 
 .br:hover .pt{
