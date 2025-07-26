@@ -88,7 +88,7 @@ body {
 }
 
 .pv{
-    display: inline-block;
+    display: flex;
     position: absolute;
     top: 117vh;   
     left: 1vw;
@@ -97,10 +97,12 @@ body {
 }
 
 .imgv{
-    height: 38vh;
-    width: auto;
+    width: 17.5vw;
     margin: 1vw;
 }
+
+
+
 
 .nh{
     position: absolute;
