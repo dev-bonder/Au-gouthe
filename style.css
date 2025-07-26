@@ -130,18 +130,21 @@ body {
 
 
 .nh{
+    text-align: center;
     position: absolute;
     top: 167vh;
-    left: 33vw;
+    left: 30vw;
     color: rgb( 246, 174, 175);
     font-size: 4vh;
+    border: solid;
+    border-color:rgb( 246, 174, 175);
+    width: 45vw;
 }
 
 .tnh{
     text-align: center;
     font-size: 5vh;
-    border: solid;
-    border-color:rgb( 246, 174, 175);
+
 }
 
 .footer{
@@ -189,16 +192,19 @@ body {
 }
 
 .F2{
-    top: 100vh;
+    top: 120vh;
 }
 
 .h1o{
-    margin-top: 13vh;
+    margin-top: 18vh;
+    margin-bottom: 5vh;
     text-align: center;
     color: rgb( 246, 174, 175);
     font-size: 5vh;
-    margin-bottom: 0;
-
+    border: solid;
+    border-color:rgb( 246, 174, 175);
+    width: 40vw;
+    margin-left: 30vw;
 }
 
 .dmap{
@@ -219,4 +225,8 @@ body {
     font-size: 4vh;
     color: rgb( 246, 174, 175);
 
+}
+
+.b2{
+    height: 150vh;
 }
