@@ -83,7 +83,7 @@ body {
     text-align: center;
     position: absolute;
     top: 102vh;
-    right: 42vw;
+    right: 39vw;
     font-size: 5vh;
 }
 
@@ -106,8 +106,8 @@ body {
 
 .nh{
     position: absolute;
-    top: 170vh;
-    left: 30vw;
+    top: 167vh;
+    left: 33vw;
     color: rgb( 246, 174, 175);
     font-size: 4vh;
 }
@@ -115,17 +115,20 @@ body {
 .tnh{
     text-align: center;
     font-size: 5vh;
+    border: solid;
+    border-color:rgb( 246, 174, 175);
 }
 
 .footer{
     width: 100vw;
-    height: 30vh;
+    height: 33vh;
     background-color: rgb(14, 92, 79);
     position: absolute;
     top: 230vh; 
     display: flex;
     justify-content: center;
     font-size: 2.5vh;
+    align-items: center;
 
 }
 
@@ -147,7 +150,8 @@ body {
 }
 
 .pco1{
-    line-height: 0.6vw;
+    margin-top:1.5vh ;
+    line-height: 1vw;
     margin-left:1vh ;
 }
 
