@@ -108,8 +108,8 @@ body {
     text-align: center;
     position: absolute;
     top: 102vh;
-    right: 39vw;
-    font-size: 5vh;
+    left: 39vw;
+    font-size: 3em;
 }
 
 .pv{
@@ -132,8 +132,8 @@ body {
 .nh{
     text-align: center;
     position: absolute;
-    top: 167vh;
-    left: 30vw;
+    top: 172vh;
+    left: 28vw;
     color: rgb( 246, 174, 175);
     font-size: 4vh;
     border: solid;
@@ -230,3 +230,4 @@ body {
 .b2{
     height: 150vh;
 }
+
