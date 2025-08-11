@@ -305,7 +305,7 @@ body {
 
     }
     .HPrM{
-        margin-left: 22vw;
+        margin-left: 25vw;
         color: rgb( 246, 174, 175);
         z-index: 2;
     }
@@ -321,25 +321,37 @@ body {
     }
     .M1{
         top: 15vh;
-        margin-left: 12vw;
+        margin-left: 16vw;
     }
     .M2{
-        margin-left: 12vw;
+        margin-left: 16vw;
     }
     .M3{
-        margin-left: 12vw;
+        margin-left: 16vw;
     }
     .M4{
-        margin-left: 12vw;
+        margin-left: 16vw;
     }
     .M5{
         top: 20vh;
-        margin-left: 12vw;
+        margin-left: 16vw;
     }
     .fondM{
         display: block;
         position: absolute;
         z-index: 0;
         width: 100vw;
+    }
+    .nh{
+        top: 95vh;
+        left: 10vw;
+        width: 80vw;
+    }
+
+    .ph{
+        font-size: 7vw;
+        line-height: 1.5em;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
 }
