@@ -243,6 +243,9 @@ body {
     display: none;
 }
 @media (max-width: 600px) {
+    .br{
+        position: absolute;
+    }
     .logo{
         margin-top: 1vh;
         height: 10vh;
