@@ -397,5 +397,18 @@ body {
     .pcoRM{
         width: 40vw;
     }
+    .h1o{
+        font-family: 'delegant';
+        width: 80vw;
+        margin-left:7vw ;
+        font-size: 10vw;
+        padding: 3vw;
+    }
 
+    .map{
+        width: 80vw;
+    }
+    .F2{
+        top: 120vh;
+    }
 }
