@@ -9,7 +9,6 @@ const affichage = (num)=>{
     image.forEach((img,index)=>{
         if(index + 1 === num){
             img.classList.remove('hidden')
-            console.log(index)
         }else{
             img.classList.add('hidden')
         }
