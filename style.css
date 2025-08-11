@@ -255,17 +255,17 @@ body {
         transition: 0.2s;
     }
     .ptm{
-        visibility: hidden;
+        opacity: 0 ;
         font-family: 'delegant';
-
+        transition: 0.3s;
     }
     .view3{
-        background-color: rgb(14, 92, 79);
         color: rgb( 246, 174, 175);
-        display: block;
         font-size: 9vw;
         line-height: 1.5em; 
-        visibility: visible;
+        opacity: 1;
+        display: block;
+        transition: 0.3s;
     }
     .ps{
         display: none;
@@ -321,20 +321,20 @@ body {
     }
     .M1{
         top: 15vh;
-        margin-left: 16vw;
+        margin-left: 15vw;
     }
     .M2{
-        margin-left: 16vw;
+        margin-left: 15vw;
     }
     .M3{
-        margin-left: 16vw;
+        margin-left: 15vw;
     }
     .M4{
-        margin-left: 16vw;
+        margin-left: 15vw;
     }
     .M5{
         top: 20vh;
-        margin-left: 16vw;
+        margin-left: 15vw;
     }
     .fondM{
         display: block;
@@ -354,4 +354,45 @@ body {
         margin-left: 2vw;
         margin-right: 2vw;
     }
+    .HM{
+        display: none;
+    }
+    .CM{
+        margin-right: 10vw;
+        margin-bottom: 8vh;
+    }
+    .NM{
+        margin-left: 10vw;
+        margin-right: 5vw;
+    }
+
+    .T20{
+        width: 40vw;
+    }
+    .pcoM{
+        margin-left:2vw ;
+    }
+    .logo1{
+        margin-top: 1.2vh;
+    }
+    .MM{
+        display: none;
+    }
+
+    .MLM{
+        margin-left:15vw ;
+    }
+    .pco1{
+        display: none;
+    }
+    .RM{
+        margin-left: 12vw;
+    }
+    .footer{
+        top: 180vh;
+    }
+    .pcoRM{
+        width: 40vw;
+    }
+
 }
